@@ -230,6 +230,9 @@ transaction:
         - name: ledger
           field: LedgerName
           type: text
+        - name: date
+          field: BillDate
+          type: date
         - name: amount
           field: Amount
           type: amount
